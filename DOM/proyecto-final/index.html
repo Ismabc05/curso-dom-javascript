@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="themetoggle">
+        <button id="toggle-theme-btn">
+            Toggl-e Theme
+        </button>
+    </div> <!--contenedor para alamecenar-->
+    <div id="task-manager">
+        <h1>Task Manager</h1>
+        <form id="task-form"> <!-- contenedor para enviar datos -->
+            <input type="text" id="task-input" placeholder="Enter a new Task" required>
+            <button type="submit">Add Task</button>
+        </form>
+        <ul id="task-list"> <!--contenedor para listas--> 
+        </ul>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>

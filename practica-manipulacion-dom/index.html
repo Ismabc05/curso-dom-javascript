@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Práctica DOM</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      padding: 20px;
+    }
+    .box {
+      width: 150px;
+      height: 150px;
+      background-color: lightblue;
+      margin-top: 10px;
+    }
+    .hidden {
+      display: none;
+    }
+    .active {
+      border: 3px solid green;
+    }
+  </style>
+</head>
+<body>
+
+  <h1 id="titulo">Práctica de DOM</h1>
+
+  <p class="descripcion">
+    Este es un párrafo para practicar selección y modificación.
+  </p>
+
+  <input type="text" id="inputTexto" placeholder="Escribe algo aquí">
+
+  <br><br>
+
+  <button id="btnCambiarTexto">Cambiar texto</button>
+  <button id="btnColor">Cambiar color</button>
+  <button id="btnToggle">Mostrar / Ocultar caja</button>
+
+  <div id="caja" class="box"></div>
+
+  <ul id="lista">
+    <li>Elemento 1</li>
+    <li>Elemento 2</li>
+    <li>Elemento 3</li>
+  </ul>
+
+  <script src="/DOM/practica-manipulacion-dom/app.js"></script>
+</body>
+</html>
